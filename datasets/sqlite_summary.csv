@@ -1,0 +1,12 @@
+,post_id,post_title,post_creation_date,content_type,content,parent_post_id,sentiment
+count,95217.0,25101,95217,95217,95217,44634.0,95217
+unique,,25089,82886,3,94964,,3
+top,,android sqlite query with multiple where,2013-01-25 16:03:40.740000+00:00,Post,<p>I had this problem too. Turned out that I had to add a TEST_NAME property in the settings.py file to identify the test database properly. It solved the problem for me:</p> <pre><code>if 'test' in sys.argv: DATABASES = { 'default': { 'ENGINE': 'django.db.backends.sqlite3' 'NAME': os.path.join(os.path.dirname(__file__) 'test.db') 'TEST_NAME': os.path.join(os.path.dirname(__file__) 'test.db') } } </code></pre>,,positive
+freq,,2,3,50583,3,,60682
+mean,9399964.265131226,,,,,8331763.938186136,
+std,5680397.688294434,,,,,5144214.852617968,
+min,246.0,,,,,246.0,
+25%,4721732.0,,,,,3946452.0,
+50%,9002039.0,,,,,7866777.0,
+75%,13675694.0,,,,,12516448.0,
+max,33615193.0,,,,,18750953.0,

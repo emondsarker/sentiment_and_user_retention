@@ -1,0 +1,12 @@
+,post_id,post_title,post_creation_date,content_type,content,parent_post_id
+count,564799.0,134600,564799,564799,564799,318898.0
+unique,,134569,533626,3,564331,
+top,,Class 'COM' not found,2014-02-26 16:54:07.647 UTC,Post,"I'm voting to close this question as off-topic because **it is about licensing or legal issues**, not programming or software development. [See here](http://meta.stackoverflow.com/a/274964/1402846) for details, and the [help/on-topic] for more.",
+freq,,2,3,245901,9,
+mean,20231630.512176897,,,,,14559257.960673945
+std,17107271.813403707,,,,,10743124.346406851
+min,30.0,,,,,88.0
+25%,7328484.5,,,,,5094934.0
+50%,16714265.0,,,,,12543122.0
+75%,29245575.0,,,,,22836190.0
+max,130306827.0,,,,,37770567.0

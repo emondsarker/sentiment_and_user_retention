@@ -1,0 +1,12 @@
+,post_id,post_title,post_creation_date,content_type,content,parent_post_id,sentiment
+count,16724.0,5227,16724,16724,16724,9444.0,16724.0
+unique,,5227,16446,3,16719,,
+top,,How to insert/update data in 2 oracle database which are in Active/Active configuration and bi-directional replication,2013-07-11 19:21:38.240000+00:00,Post,<p>Actually the problem was with the initial charset that was set while loading the data into the oracle database. we changed the charset in the sql*loader control file and it works fine now.</p>,,
+freq,,1,3,7280,2,,
+mean,18186064.749222673,,,,,14000671.90734858,0.31033542214781157
+std,15130296.332581365,,,,,10993659.04855308,0.540066952537794
+min,4646.0,,,,,4954.0,-1.0
+25%,6020414.0,,,,,4369268.0,0.0
+50%,14729271.0,,,,,11293557.0,0.4019
+75%,27729306.75,,,,,22562384.25,0.7964
+max,125011289.0,,,,,37740748.0,0.9999

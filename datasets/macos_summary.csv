@@ -1,0 +1,12 @@
+,post_id,post_title,post_creation_date,content_type,content,parent_post_id
+count,32781.0,7977,32781,32781,32781,16858.0
+unique,,7976,31898,3,32763,
+top,,Apple LLVM compiler 3.1 error,2013-01-17 12:16:09.79 UTC,Post,<p>I think something like <code>#if !defined(DEBUG) &amp;&amp; defined(MACOS)</code> should do it.</p>,
+freq,,2,3,15923,2,
+mean,20351943.078094017,,,,,15265739.138806501
+std,16535454.188843539,,,,,10367952.620760389
+min,1496.0,,,,,1496.0
+25%,8014416.0,,,,,6573318.0
+50%,17192815.0,,,,,13715229.0
+75%,28817898.0,,,,,23536893.0
+max,127882684.0,,,,,37761879.0

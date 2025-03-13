@@ -1,0 +1,12 @@
+,post_id,post_title,post_creation_date,content_type,content,parent_post_id
+count,126843.0,36213,126843,126843,126843,62743.0
+unique,,36207,110638,3,126682,
+top,,Find most recent & closest posts limit 20,2014-02-17 22:47:44.3 UTC,Post,Possible duplicate of [Retrieve only the queried element in an object array in MongoDB collection](http://stackoverflow.com/questions/3985214/retrieve-only-the-queried-element-in-an-object-array-in-mongodb-collection),
+freq,,2,3,64100,4,
+mean,25039495.322997723,,,,,19481501.169309724
+std,15435475.207724564,,,,,10036933.324162977
+min,32652.0,,,,,50568.0
+25%,13453083.0,,,,,10805360.0
+50%,23722799.0,,,,,18831485.0
+75%,32779106.0,,,,,28543896.0
+max,130288514.0,,,,,37768094.0

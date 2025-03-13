@@ -1,0 +1,6 @@
+,content_type_counts,total_posts,total_answers,total_comments
+linux,"{'Post': 245901, 'Answer': 215062, 'Comment': 103836}",245901,215062,103836
+macos,"{'Post': 15923, 'Answer': 10959, 'Comment': 5899}",15923,10959,5899
+mongodb,"{'Post': 64100, 'Answer': 45087, 'Comment': 17656}",64100,45087,17656
+oracle_database,"{'Post': 7280, 'Answer': 7192, 'Comment': 2252}",7280,7192,2252
+sqlite,"{'Post': 50583, 'Answer': 32974, 'Comment': 11660}",50583,32974,11660
