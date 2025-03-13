@@ -16,6 +16,7 @@ h1, h2 { color: #333; }
 <p>This table shows the number of posts, answers, and comments in each dataset:</p>
 <table class="content-count-table">
 <tr><th>Dataset</th><th>Posts</th><th>Answers</th><th>Comments</th><th>Total Records</th></tr>
+<tr><td>content_statistics</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
 <tr><td>linux</td><td>254159</td><td>169439</td><td>141199</td><td>564797</td></tr>
 <tr><td>macos</td><td>14751</td><td>9834</td><td>8195</td><td>32780</td></tr>
 <tr><td>mongodb</td><td>57079</td><td>38052</td><td>31710</td><td>126841</td></tr>
@@ -23,6 +24,109 @@ h1, h2 { color: #333; }
 <tr><td>sqlite</td><td>42847</td><td>28565</td><td>23804</td><td>95216</td></tr>
 </table>
 <hr>
+<h2>content_statistics Dataset</h2>
+<table border="1" class="dataframe dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>content_type_counts</th>
+      <th>total_posts</th>
+      <th>total_answers</th>
+      <th>total_comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>5</td>
+      <td>5</td>
+      <td>5.00000</td>
+      <td>5.000000</td>
+      <td>5.000000</td>
+    </tr>
+    <tr>
+      <th>unique</th>
+      <td>5</td>
+      <td>5</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>top</th>
+      <td>linux</td>
+      <td>{'Post': 245901, 'Answer': 215062, 'Comment': 103836}</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>freq</th>
+      <td>1</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>76757.40000</td>
+      <td>62254.800000</td>
+      <td>28260.600000</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>97445.88209</td>
+      <td>86840.817043</td>
+      <td>42650.225601</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>7280.00000</td>
+      <td>7192.000000</td>
+      <td>2252.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>15923.00000</td>
+      <td>10959.000000</td>
+      <td>5899.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>50583.00000</td>
+      <td>32974.000000</td>
+      <td>11660.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>64100.00000</td>
+      <td>45087.000000</td>
+      <td>17656.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>245901.00000</td>
+      <td>215062.000000</td>
+      <td>103836.000000</td>
+    </tr>
+  </tbody>
+</table><hr>
 <h2>linux Dataset</h2>
 <table border="1" class="dataframe dataframe">
   <thead>

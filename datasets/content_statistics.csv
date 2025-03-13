@@ -1,4 +1,5 @@
 ,content_type_counts,total_posts,total_answers,total_comments
+full_summary_statistics,"{'3': 5, 'Post': 5, '564799': 1, '245901': 1, '32781': 1, '15923': 1, '126843': 1, '64100': 1, '16724': 1, '7280': 1, '95217': 1, '50583': 1}",0,0,0
 linux,"{'Post': 245901, 'Answer': 215062, 'Comment': 103836}",245901,215062,103836
 macos,"{'Post': 15923, 'Answer': 10959, 'Comment': 5899}",15923,10959,5899
 mongodb,"{'Post': 64100, 'Answer': 45087, 'Comment': 17656}",64100,45087,17656

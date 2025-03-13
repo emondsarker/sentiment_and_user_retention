@@ -1,56 +1,67 @@
-,Dataset,post_id,post_title,post_creation_date,content_type,content,parent_post_id,sentiment
-count,linux,564799.0,134600,564799,564799,564799,318898.0,
-unique,linux,,134569,533626,3,564331,,
-top,linux,,Class 'COM' not found,2014-02-26 16:54:07.647 UTC,Post,"I'm voting to close this question as off-topic because **it is about licensing or legal issues**, not programming or software development. [See here](http://meta.stackoverflow.com/a/274964/1402846) for details, and the [help/on-topic] for more.",,
-freq,linux,,2,3,245901,9,,
-mean,linux,20231630.512176897,,,,,14559257.960673943,
-std,linux,17107271.813403707,,,,,10743124.346406853,
-min,linux,30.0,,,,,88.0,
-25%,linux,7328484.5,,,,,5094934.0,
-50%,linux,16714265.0,,,,,12543122.0,
-75%,linux,29245575.0,,,,,22836190.0,
-max,linux,130306827.0,,,,,37770567.0,
-count,macos,32781.0,7977,32781,32781,32781,16858.0,
-unique,macos,,7976,31898,3,32763,,
-top,macos,,Apple LLVM compiler 3.1 error,2013-01-17 12:16:09.79 UTC,Post,<p>I think something like <code>#if !defined(DEBUG) &amp;&amp; defined(MACOS)</code> should do it.</p>,,
-freq,macos,,2,3,15923,2,,
-mean,macos,20351943.078094017,,,,,15265739.1388065,
-std,macos,16535454.18884354,,,,,10367952.620760389,
-min,macos,1496.0,,,,,1496.0,
-25%,macos,8014416.0,,,,,6573318.0,
-50%,macos,17192815.0,,,,,13715229.0,
-75%,macos,28817898.0,,,,,23536893.0,
-max,macos,127882684.0,,,,,37761879.0,
-count,mongodb,126843.0,36213,126843,126843,126843,62743.0,
-unique,mongodb,,36207,110638,3,126682,,
-top,mongodb,,Find most recent & closest posts limit 20,2014-02-17 22:47:44.3 UTC,Post,Possible duplicate of [Retrieve only the queried element in an object array in MongoDB collection](http://stackoverflow.com/questions/3985214/retrieve-only-the-queried-element-in-an-object-array-in-mongodb-collection),,
-freq,mongodb,,2,3,64100,4,,
-mean,mongodb,25039495.322997723,,,,,19481501.169309724,
-std,mongodb,15435475.207724564,,,,,10036933.324162977,
-min,mongodb,32652.0,,,,,50568.0,
-25%,mongodb,13453083.0,,,,,10805360.0,
-50%,mongodb,23722799.0,,,,,18831485.0,
-75%,mongodb,32779106.0,,,,,28543896.0,
-max,mongodb,130288514.0,,,,,37768094.0,
-count,oracle_database,16724.0,5227,16724,16724,16724,9444.0,16724.0
-unique,oracle_database,,5227,16446,3,16719,,
-top,oracle_database,,How to insert/update data in 2 oracle database which are in Active/Active configuration and bi-directional replication,2013-07-11 19:21:38.240000+00:00,Post,<p>Actually the problem was with the initial charset that was set while loading the data into the oracle database. we changed the charset in the sql*loader control file and it works fine now.</p>,,
-freq,oracle_database,,1,3,7280,2,,
-mean,oracle_database,18186064.749222677,,,,,14000671.90734858,0.3103354221478115
-std,oracle_database,15130296.332581364,,,,,10993659.04855308,0.540066952537794
-min,oracle_database,4646.0,,,,,4954.0,-1.0
-25%,oracle_database,6020414.0,,,,,4369268.0,0.0
-50%,oracle_database,14729271.0,,,,,11293557.0,0.4019
-75%,oracle_database,27729306.75,,,,,22562384.25,0.7964
-max,oracle_database,125011289.0,,,,,37740748.0,0.9999
-count,sqlite,95217.0,25101,95217,95217,95217,44634.0,95217
-unique,sqlite,,25089,82886,3,94964,,3
-top,sqlite,,android sqlite query with multiple where,2013-01-25 16:03:40.740000+00:00,Post,<p>I had this problem too. Turned out that I had to add a TEST_NAME property in the settings.py file to identify the test database properly. It solved the problem for me:</p> <pre><code>if 'test' in sys.argv: DATABASES = { 'default': { 'ENGINE': 'django.db.backends.sqlite3' 'NAME': os.path.join(os.path.dirname(__file__) 'test.db') 'TEST_NAME': os.path.join(os.path.dirname(__file__) 'test.db') } } </code></pre>,,positive
-freq,sqlite,,2,3,50583,3,,60682
-mean,sqlite,9399964.265131226,,,,,8331763.938186136,
-std,sqlite,5680397.688294434,,,,,5144214.852617968,
-min,sqlite,246.0,,,,,246.0,
-25%,sqlite,4721732.0,,,,,3946452.0,
-50%,sqlite,9002039.0,,,,,7866777.0,
-75%,sqlite,13675694.0,,,,,12516448.0,
-max,sqlite,33615193.0,,,,,18750953.0,
+,Dataset,Unnamed: 0,content_type_counts,total_posts,total_answers,total_comments,post_id,post_title,post_creation_date,content_type,content,parent_post_id,sentiment
+count,content_statistics,5,5,5.0,5.0,5.0,,,,,,,
+unique,content_statistics,5,5,,,,,,,,,,
+top,content_statistics,linux,"{'Post': 245901, 'Answer': 215062, 'Comment': 103836}",,,,,,,,,,
+freq,content_statistics,1,1,,,,,,,,,,
+mean,content_statistics,,,76757.4,62254.8,28260.6,,,,,,,
+std,content_statistics,,,97445.88209000933,86840.81704302419,42650.22560081013,,,,,,,
+min,content_statistics,,,7280.0,7192.0,2252.0,,,,,,,
+25%,content_statistics,,,15923.0,10959.0,5899.0,,,,,,,
+50%,content_statistics,,,50583.0,32974.0,11660.0,,,,,,,
+75%,content_statistics,,,64100.0,45087.0,17656.0,,,,,,,
+max,content_statistics,,,245901.0,215062.0,103836.0,,,,,,,
+count,linux,,,,,,564799.0,134600,564799,564799,564799,318898.0,
+unique,linux,,,,,,,134569,533626,3,564331,,
+top,linux,,,,,,,Class 'COM' not found,2014-02-26 16:54:07.647 UTC,Post,"I'm voting to close this question as off-topic because **it is about licensing or legal issues**, not programming or software development. [See here](http://meta.stackoverflow.com/a/274964/1402846) for details, and the [help/on-topic] for more.",,
+freq,linux,,,,,,,2,3,245901,9,,
+mean,linux,,,,,,20231630.512176897,,,,,14559257.960673943,
+std,linux,,,,,,17107271.813403707,,,,,10743124.346406853,
+min,linux,,,,,,30.0,,,,,88.0,
+25%,linux,,,,,,7328484.5,,,,,5094934.0,
+50%,linux,,,,,,16714265.0,,,,,12543122.0,
+75%,linux,,,,,,29245575.0,,,,,22836190.0,
+max,linux,,,,,,130306827.0,,,,,37770567.0,
+count,macos,,,,,,32781.0,7977,32781,32781,32781,16858.0,
+unique,macos,,,,,,,7976,31898,3,32763,,
+top,macos,,,,,,,Apple LLVM compiler 3.1 error,2013-01-17 12:16:09.79 UTC,Post,<p>I think something like <code>#if !defined(DEBUG) &amp;&amp; defined(MACOS)</code> should do it.</p>,,
+freq,macos,,,,,,,2,3,15923,2,,
+mean,macos,,,,,,20351943.078094017,,,,,15265739.1388065,
+std,macos,,,,,,16535454.18884354,,,,,10367952.620760389,
+min,macos,,,,,,1496.0,,,,,1496.0,
+25%,macos,,,,,,8014416.0,,,,,6573318.0,
+50%,macos,,,,,,17192815.0,,,,,13715229.0,
+75%,macos,,,,,,28817898.0,,,,,23536893.0,
+max,macos,,,,,,127882684.0,,,,,37761879.0,
+count,mongodb,,,,,,126843.0,36213,126843,126843,126843,62743.0,
+unique,mongodb,,,,,,,36207,110638,3,126682,,
+top,mongodb,,,,,,,Find most recent & closest posts limit 20,2014-02-17 22:47:44.3 UTC,Post,Possible duplicate of [Retrieve only the queried element in an object array in MongoDB collection](http://stackoverflow.com/questions/3985214/retrieve-only-the-queried-element-in-an-object-array-in-mongodb-collection),,
+freq,mongodb,,,,,,,2,3,64100,4,,
+mean,mongodb,,,,,,25039495.322997723,,,,,19481501.169309724,
+std,mongodb,,,,,,15435475.207724564,,,,,10036933.324162977,
+min,mongodb,,,,,,32652.0,,,,,50568.0,
+25%,mongodb,,,,,,13453083.0,,,,,10805360.0,
+50%,mongodb,,,,,,23722799.0,,,,,18831485.0,
+75%,mongodb,,,,,,32779106.0,,,,,28543896.0,
+max,mongodb,,,,,,130288514.0,,,,,37768094.0,
+count,oracle_database,,,,,,16724.0,5227,16724,16724,16724,9444.0,16724.0
+unique,oracle_database,,,,,,,5227,16446,3,16719,,
+top,oracle_database,,,,,,,How to insert/update data in 2 oracle database which are in Active/Active configuration and bi-directional replication,2013-07-11 19:21:38.240000+00:00,Post,<p>Actually the problem was with the initial charset that was set while loading the data into the oracle database. we changed the charset in the sql*loader control file and it works fine now.</p>,,
+freq,oracle_database,,,,,,,1,3,7280,2,,
+mean,oracle_database,,,,,,18186064.749222677,,,,,14000671.90734858,0.3103354221478115
+std,oracle_database,,,,,,15130296.332581364,,,,,10993659.04855308,0.540066952537794
+min,oracle_database,,,,,,4646.0,,,,,4954.0,-1.0
+25%,oracle_database,,,,,,6020414.0,,,,,4369268.0,0.0
+50%,oracle_database,,,,,,14729271.0,,,,,11293557.0,0.4019
+75%,oracle_database,,,,,,27729306.75,,,,,22562384.25,0.7964
+max,oracle_database,,,,,,125011289.0,,,,,37740748.0,0.9999
+count,sqlite,,,,,,95217.0,25101,95217,95217,95217,44634.0,95217
+unique,sqlite,,,,,,,25089,82886,3,94964,,3
+top,sqlite,,,,,,,android sqlite query with multiple where,2013-01-25 16:03:40.740000+00:00,Post,<p>I had this problem too. Turned out that I had to add a TEST_NAME property in the settings.py file to identify the test database properly. It solved the problem for me:</p> <pre><code>if 'test' in sys.argv: DATABASES = { 'default': { 'ENGINE': 'django.db.backends.sqlite3' 'NAME': os.path.join(os.path.dirname(__file__) 'test.db') 'TEST_NAME': os.path.join(os.path.dirname(__file__) 'test.db') } } </code></pre>,,positive
+freq,sqlite,,,,,,,2,3,50583,3,,60682
+mean,sqlite,,,,,,9399964.265131226,,,,,8331763.938186136,
+std,sqlite,,,,,,5680397.688294434,,,,,5144214.852617968,
+min,sqlite,,,,,,246.0,,,,,246.0,
+25%,sqlite,,,,,,4721732.0,,,,,3946452.0,
+50%,sqlite,,,,,,9002039.0,,,,,7866777.0,
+75%,sqlite,,,,,,13675694.0,,,,,12516448.0,
+max,sqlite,,,,,,33615193.0,,,,,18750953.0,
