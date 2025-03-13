@@ -33,3 +33,9 @@ coverage.xml
 # OS specific files
 .DS_Store
 Thumbs.db 
+# Dataset directory
+datasets/linux.csv
+datasets/macos.csv
+datasets/mongodb.csv
+datasets/oracle_database_posts_with_comments_answers.csv
+datasets/sqlite_posts_with_comments_answers.csv
