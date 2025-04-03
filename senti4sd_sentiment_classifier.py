@@ -15,7 +15,7 @@ print_status("Initializing Senti4SD classifier...")
 
 # Define directories using Windows path format
 base_dir = os.getcwd()
-datasets_dir = os.path.join(base_dir, 'datasets', 'preprocessed_for_senti4sd')
+datasets_dir = os.path.join(base_dir, 'datasets', 'processed_for_senti4sd')
 output_dir = os.path.join(base_dir, 'datasets', 'predictions')
 jar_path = os.path.join(base_dir, 'external', 'pySenti4SD', 'java', 'Senti4SD.jar')
 dsm_path = os.path.join(base_dir, 'external', 'pySenti4SD', 'java', 'dsm.bin')
